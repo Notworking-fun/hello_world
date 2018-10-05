@@ -1,0 +1,15 @@
+1、显示树形log
+git log --decorate --graph --all
+2、创建分支并切换到新建分支
+   a、创建分支
+       git branch branch_name
+   b、切换分支
+       git checkout branch_name
+
+   将上面两步骤合并成一个命令
+       git checkout -b branch_name
+3、将本地分支提交到远程分支
+   git push origin test:master //提交本地test分支作为远程的master分支
+4、查看本地分支属于那个远程分支
+   git branch -vv
+
