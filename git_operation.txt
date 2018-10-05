@@ -12,4 +12,7 @@ git log --decorate --graph --all
    git push origin test:master //提交本地test分支作为远程的master分支
 4、查看本地分支属于那个远程分支
    git branch -vv
-
+5、merge
+   git merge branch_name
+6、rebase
+   git rebase master
