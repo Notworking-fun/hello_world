@@ -16,3 +16,7 @@ git log --decorate --graph --all
    git merge branch_name
 6、rebase
    git rebase master
+7、撤销本地commit
+   a. git log 找到本次提交的commit id
+   b. git reset -hard id //完成撤销，同时修改的代码也消失了。
+   c. git reset id       //完成撤销，修改的内容保存。
