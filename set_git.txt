@@ -3,4 +3,11 @@
  git config --global user.email "your_email@xx.com"
 2、生成密钥、关联仓库
   ssh-keygen -t rsa -C "your_email@xx.com"
-3、
+  将公钥复制到github上
+3、验证链接
+  ssh -T git@github.com
+4、在GitHub上创建一个仓库
+5、克隆仓库
+  git clone ....
+
+
