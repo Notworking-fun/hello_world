@@ -22,4 +22,6 @@ git log --decorate --graph --all
    c. git reset id       //完成撤销，修改的内容保存。
 8、git log 结束
    英文输入法下q
+9、将某一分支的某一次commit合入到当前分支
+   git cherry-pick commitid
 
