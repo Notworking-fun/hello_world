@@ -1,0 +1,3 @@
+1、echo 
+echo "覆盖" > readme
+echo "追加" >> readme

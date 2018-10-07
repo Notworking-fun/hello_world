@@ -16,12 +16,16 @@ git log --decorate --graph --all
    git merge branch_name
 6、rebase
    git rebase master
-7、撤销本地commit
+7、git log 结束
+   英文输入法下q
+8、将某一分支的某一次commit合入到当前分支
+   git cherry-pick commitid
+9、撤销已经修改的某个文件（没有被add）
+   git checkout -- filename
+    如果已经被add
+   先使用
+   git reset HEAD -- filename
+10、撤销本地commit
    a. git log 找到本次提交的commit id
    b. git reset -hard id //完成撤销，同时修改的代码也消失了。这里id是本次提交的上一次的id
    c. git reset id       //完成撤销，修改的内容保存。
-8、git log 结束
-   英文输入法下q
-9、将某一分支的某一次commit合入到当前分支
-   git cherry-pick commitid
-
